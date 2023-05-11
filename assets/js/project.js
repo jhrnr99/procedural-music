@@ -1,4 +1,4 @@
-//import * as Tone from 'tone'
+import * as Tone from 'tone'
 
 function generateSound() {
   //create a synth and connect it to the main output (your speakers)
