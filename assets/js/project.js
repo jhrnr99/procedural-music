@@ -1,10 +1,5 @@
 import * as Tone from 'tone'
 
-function startPage() {
-  heading = document.getElementById("Heading1");
-  heading.innerHTML = "Procedural Music Generator";
-}
-
 function generateSound() {
   //create a synth and connect it to the main output (your speakers)
   const synth = new Tone.Synth().toDestination();
