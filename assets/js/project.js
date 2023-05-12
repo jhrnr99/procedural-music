@@ -1,6 +1,3 @@
-var MonoSynth = require("Tone").MonoSynth;
-var synth = new MonoSynth();
-
 function generateSound() {
   alert("Someday we will make a noise!");
   
