@@ -1,3 +1,9 @@
+//attach a click listener to a play button
+document.querySelector('button')?.addEventListener('click', async () => {
+	await Tone.start()
+	console.log('audio is ready')
+})
+
 function generateSound() {
 
   //create a synth and connect it to the main output (your speakers)
